@@ -1223,8 +1223,89 @@ MAKE ME PROUD BEN!
 ```{r PolOrUpd, echo=T, warning=F, message=F}
 dt5newVars <- dt5newVars %>%
   dplyr::mutate(PolEN_1_x = PolEN_1_x - 200,
-                PolEN_1_y = PolEN_1_y - 213
-                )
+              PolEN_1_y = PolEN_1_y - 213,
+              
+              PolDE_1_x = PolDE_1_x - 210,
+              PolDE_1_y = PolDE_1_y - 177,
+              
+              PolID_1_x = PolID_1_x - 210,
+              PolID_1_y = PolID_1_y - 177,
+              
+              PolMS_1_x = PolMS_1_x - 210,
+              PolMS_1_y = PolMS_1_y - 181,
+              
+              PolES_ES_1_x = PolES_ES_1_x - 239,
+              PolES_ES_1_y = PolES_ES_1_y - 181,
+              
+              PolFR_1_x = PolFR_1_x - 236,
+              PolFR_1_y = PolFR_1_y - 178,
+              
+              PolHR_1_x = PolHR_1_x - 215,
+              PolHR_1_y = PolHR_1_y - 175,
+              
+              PolIT_1_x = PolIT_1_x - 227,
+              PolIT_1_y = PolIT_1_y - 173,
+              
+              PolHU_1_x = PolHU_1_x - 286,
+              PolHU_1_y = PolHU_1_y - 175,
+              
+              PolNL_1_x = PolNL_1_x - 196,
+              PolNL_1_y = PolNL_1_y - 176,
+              
+              PolPL_1_x = PolPL_1_x - 245,
+              PolPL_1_y = PolPL_1_y - 179,
+              
+              PolPT_1_x = PolPT_1_x - 256,
+              PolPT_1_y = PolPT_1_y - 177,
+              
+              PolRO_1_x = PolRO_1_x - 224,
+              PolRO_1_y = PolRO_1_y - 171,
+              
+              PolSQI_1_x = PolSQI_1_x - 211,
+              PolSQI_1_y = PolSQI_1_y - 177,
+              
+              PolSR_1_x = PolSR_1_x - 209,
+              PolSR_1_y = PolSR_1_y - 184,
+              
+              PolVI_1_x = PolVI_1_x - 233,
+              PolVI_1_y = PolVI_1_y - 178,
+              
+              PolTR_1_x = PolTR_1_x - 210,
+              PolTR_1_y = PolTR_1_y - 177,
+              
+              PolEL_1_x = PolEL_1_x - 288,
+              PolEL_1_y = PolEL_1_y - 181,
+              
+              PolRU_1_x = PolRU_1_x - 239,
+              PolRU_1_y = PolRU_1_y - 173,
+              
+              PolUK_1_x = PolUK_1_x - 195,
+              PolUK_1_y = PolUK_1_y - 176,
+              
+              PolUR_1_x = PolUR_1_x - 210,
+              PolUR_1_y = PolUR_1_y - 177,
+              
+              PolAR_1_x = PolAR_1_x - 200,
+              PolAR_1_y = PolAR_1_y - 177,
+              
+              PolFA_1_x = PolFA_1_x - 186,
+              PolFA_1_y = PolFA_1_y - 179,
+              
+              PolHI_1_x = PolHI_1_x - 255,
+              PolHI_1_y = PolHI_1_y - 182,
+              
+              PolBN_1_x = PolBN_1_x - 210,
+              PolBN_1_y = PolBN_1_y - 184,
+              
+              PolTH_1_x = PolTH_1_x - 210,
+              PolTH_1_y = PolTH_1_y - 185,
+              
+              PolKO_1_x = PolKO_1_x - 279,
+              PolKO_1_y = PolKO_1_y - 180,
+              
+              PolJA_1_x = PolJA_1_x - 210,
+              PolJA_1_y = PolJA_1_y - 185
+              )
 
 ```
 
